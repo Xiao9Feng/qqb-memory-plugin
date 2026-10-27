@@ -1,0 +1,24 @@
+# 依赖
+node_modules/
+package-lock.json
+yarn.lock
+
+# 运行时产生的记忆数据（含真实聊天内容，绝不入库）
+state/
+state/memory/
+*.corrupt-*
+
+# 安装/备份残留
+*.bak-before-*
+*.bak-*
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# 日志
+*.log
+npm-debug.log*
